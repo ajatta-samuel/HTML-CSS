@@ -1,0 +1,22 @@
+/*Page container style*/
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+.page-container > .content-wrapper {
+    width: 1200px;
+}
+.page-container > .content-wrapper > #programmer {
+    width: 350px;
+    margin: 23px 40px 20px 0px;
+    float: left;
+    border: 2px solid #cea135;
+}
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.page-container > .contact-grid-wrapper > .company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #cea135;
+}
